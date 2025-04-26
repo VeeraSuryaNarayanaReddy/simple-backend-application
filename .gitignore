@@ -1,0 +1,27 @@
+# Local Terraform files
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Crash logs
+crash.log
+
+# Override files (if you use them)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive files
+*.pem
+*.key
+*.crt
+
+# User-specific files
+*.tfvars
+*.tfvars.json
+
+# OS files
+.DS_Store
+Thumbs.db
